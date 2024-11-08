@@ -48,10 +48,7 @@ This project aimed to create a SQL-based analytical solution for an e-commerce d
   - ProductID (INT, Primary Key, Foreign Key): Links to Products.ProductID.
   - Stock (INT): Available stock for each product.
 
-[ERD]<img width="410" alt="image" src="https://github.com/user-attachments/assets/c85f4dc6-a4cf-4a10-80fa-434b982b4ee6">
-
-
-
+[ERD](<img width="410" alt="image" src="https://github.com/user-attachments/assets/c85f4dc6-a4cf-4a10-80fa-434b982b4ee6">)
 
 
 
@@ -61,7 +58,5 @@ This project aimed to create a SQL-based analytical solution for an e-commerce d
 
 # **Appendix**
   - **Data Integrity:** Foreign key constraints enforce referential integrity across tables. For instance, CustomerID in Orders and Order_Items ensures orders and items are linked to valid customers and orders.
-  
-  -** Indexes**: Adding indexes on frequently joined or filtered columns (e.g., ProductID, CustomerID, OrderDate) can optimize performance, especially in large datasets.
-  
-  -** Stored Procedures and Views (Optional)**: You could use stored procedures to automate frequent reports (e.g., monthly sales, low-stock alerts) or create views that consolidate customer and order details for quick retrieval in reports or dashboards.
+    - ** Indexes**: Adding indexes on frequently joined or filtered columns (e.g., ProductID, CustomerID, OrderDate) can optimize performance, especially in large datasets.
+  - ** Stored Procedures and Views (Optional)**: You could use stored procedures to automate frequent reports (e.g., monthly sales, low-stock alerts) or create views that consolidate customer and order details for quick retrieval in reports or dashboards.
