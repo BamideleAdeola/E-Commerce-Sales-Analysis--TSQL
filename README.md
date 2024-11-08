@@ -1,7 +1,7 @@
 # E-Commerce-Sales-Analysis-SQL
 
 # Project Objective 
-This project aimed to create a SQL-based analytical solution for an e-commerce dataset. The data is randomly generated data to bring out insights  into sales performance, customer behavior, and product trends, which will in turn enable data-driven decisions for a company 
+This project is aimed at creating a SQL-based analytical solution for an e-commerce dataset. It focuses on bringing out insights on sales performance, customer behavior, and product trends, which will in turn enable data-driven decisions for a company 
 
 # Database Schema
 **Table Overview:**
