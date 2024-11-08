@@ -53,4 +53,4 @@ This project aimed to create a SQL-based analytical solution for an e-commerce d
 # **Appendix**
   - **Data Integrity:** Foreign key constraints enforce referential integrity across tables. Hence, CustomerID in Orders and Order_Items ensures orders and items are linked to valid customers and orders.
     - ** Indexes**: Adding indexes on frequently joined or filtered columns (e.g., ProductID, CustomerID, OrderDate) can optimize performance, especially in large datasets.
-  - ** Stored Procedures and Views (Optional)**: While this is optional, I have included stored procedures to automate frequent reports (e.g., monthly sales, low-stock alerts) and created  views that consolidate customer and order details for quick retrieval in reports or dashboards.
+  - ** Stored Procedures and Views (Optional) **: While this is optional, I have included stored procedures to automate frequent reports (e.g., monthly sales, low-stock alerts) and created  views that consolidate customer and order details for quick retrieval in reports or dashboards.
